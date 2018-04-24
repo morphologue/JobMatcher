@@ -1,0 +1,33 @@
+{
+  "name": "jobmatcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "watch": "start webpack --mode development --watch",
+    "build-prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morphologue/JobMatcher.git"
+  },
+  "author": "Gavin Heise",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "core-js": "^2.5.5",
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "@types/react": "^16.3.12",
+    "@types/react-dom": "^16.0.5",
+    "awesome-typescript-loader": "^5.0.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}

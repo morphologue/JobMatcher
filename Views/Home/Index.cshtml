@@ -7,5 +7,69 @@
 
     <body>
         <div id="react-root"></div>
+        
+        @* This JSON gets populated by the server during page load. *@
+        <span id="candidates-json" style="display: none">
+            [
+                {
+                    "candidateId": 1,
+                    "name": "Chan Bravo",
+                    "skills": "reliable, reliable, ms-office, xcode, detail"
+                },
+                {
+                    "candidateId": 2,
+                    "name": "Thomasine To",
+                    "skills": "illustrator, oration, sterilisation, kotlin, outlook"
+                },
+                {
+                    "candidateId": 3,
+                    "name": "Lester Scheidt",
+                    "skills": "placements, iOS, entertainment, mobile, xcode"
+                },
+                {
+                    "candidateId": 4,
+                    "name": "Pandora Hubble",
+                    "skills": "aphra-registration, sales, reception, xcode, fastlane"
+                },
+                {
+                    "candidateId": 5,
+                    "name": "Marie Milone",
+                    "skills": "sterilisation, service, cooking, dental-assisting, pharmaceutical"
+                },
+                {
+                    "candidateId": 6,
+                    "name": "Phillis Messersmith",
+                    "skills": "detail, maintenance, powerpoint, data-entry, housekeeping"
+                },
+                {
+                    "candidateId": 7,
+                    "name": "Holly Aldana",
+                    "skills": "powerpoint, photoshop, teamwork, detail, service"
+                },
+                {
+                    "candidateId": 8,
+                    "name": "Kimbra Yerian",
+                    "skills": "detail, problem-solving, ordering, teamwork, detail"
+                }
+            ]
+        </span>
+        <span id="jobs-json" style="display: none">
+            [
+                {
+                    "jobId": 1,
+                    "name": "Mobile Developer",
+                    "company": "Uberise",
+                    "skills": "mobile, java, swift, objective-c, iOS, xcode, fastlane, aws, kotlin, hockey-app",
+                    "recommendedCandidates": [1, 3, 6, 5, 4]
+                },
+                {
+                    "jobId": 2,
+                    "name": "Reception",
+                    "company": "Surile",
+                    "skills": "detail, ms-office, word, outlook, data-entry, communication",
+                    "recommendedCandidates": [1, 2, 3, 4, 5, 6, 7, 8]
+                }
+            ]
+        </span>
     </body>
 </html>
